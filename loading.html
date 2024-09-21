@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #fff; /* Change background color if needed */
+            font-family: 'Roboto', sans-serif; /* Use your preferred font */
+        }
+        #loader {
+            text-align: center;
+        }
+        img {
+            width: 100px; /* Adjust logo size as needed */
+            height: auto;
+        }
+        .loading-text {
+            margin-top: 20px;
+            font-size: 20px; /* Adjust text size as needed */
+        }
+    </style>
+</head>
+<body>
+    <div id="loader">
+        <img src="https://raw.githubusercontent.com/m5n5/game/main/logo.png" alt="Loading Logo">
+        <div class="loading-text">Loading...</div>
+    </div>
+    <script>
+        // Redirect or show the main content after a delay
+        setTimeout(() => {
+            window.location.href = 'YOUR_MAIN_PAGE_URL'; // Change this to your main page URL
+        }, 3000); // Adjust time as needed (3000 ms = 3 seconds)
+    </script>
+</body>
+</html>
